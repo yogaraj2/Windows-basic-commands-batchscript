@@ -31,6 +31,7 @@ Create a directory named "MyLab" on the desktop.
 ## COMMAND AND OUTPUT
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
+
 mkdir %userprofile%\Desktop\MyLab
 
 ![328464022-bae51f75-f6cf-48cf-b0e6-fbb3b6bdfa39](https://github.com/yogaraj2/Windows-basic-commands-batchscript/assets/153482637/eb1f92ea-4f6b-4957-9f04-5636932a15a0)
@@ -40,13 +41,16 @@ mkdir %userprofile%\Desktop\MyLab
 List the contents of the "MyLab" directory.
 
 cd %userprofile%\Desktop\MyLab
+
 ![328464402-3fda6e27-edc8-4f39-a96c-5e49ee9103f5](https://github.com/yogaraj2/Windows-basic-commands-batchscript/assets/153482637/d8343d40-6ac1-4db0-8a20-7aa360e1091a)
+
 ![328464433-ee8aaf6a-bbaa-494f-b30c-1490967b620d](https://github.com/yogaraj2/Windows-basic-commands-batchscript/assets/153482637/89a87cbc-939d-49ef-850e-b2d8afdbea45)
 
 
 ## COMMAND AND OUTPUT
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
+
 dir %userprofile%\Desktop\MyLab
 
 ![328464543-de4c5ce3-8d4b-4b95-bef5-667a1dd3f35e](https://github.com/yogaraj2/Windows-basic-commands-batchscript/assets/153482637/b79aff82-0e3c-4439-b269-7e2dcb5adf03)
